@@ -7,7 +7,7 @@
 start_dom=1             # first day of month to start
 wake_period=3           # period of days until next start
 wake_time="01:00:00"    # time to start
-sleep_mode="off"		# ACPI-suspend-mode for sleeping time
+sleep_mode="off"	# ACPI-suspend-mode for sleeping time
 
 # today
 dom=$(($(date +%e) + 0))
